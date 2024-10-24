@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <!-- This is navbar section -->
+        <section class="bg-[#1B768D]">
+            <div class="navbar container mx-auto">
+                <div class="flex-1">
+                    <img class="w-20" src="./images/logo (2).png" alt="">
+                </div>
+                <div class="text-end flex gap-5">
+                    <div class="flex justify-center items-center gap-1">
+                        <img class="w-6" src="./images/shopping-cart-outline.png" alt="">
+                        <h4 class="text-white">Shopping</h4>
+                    </div>
+                    <div class="flex justify-center items-center gap-2">
+                        <img class="w-6" src="./images/shopping-bag-outline.png" alt="">
+                        <h4 class="text-white">Sell</h4>
+                    </div>
+                    <div class="flex justify-center items-center gap-2">
+                        <img class="w-6" src="./images/question-mark-circle-outline.png" alt="">
+                        <h4 class="text-white">Help</h4>
+                    </div>
+                    <div class="flex justify-center items-center gap-2">
+                        <img class="w-6" src="./images/message-square-outline.png" alt="">
+                        <h4 class="text-white">Message</h4>
+                    </div>
+                    <div class="flex justify-center items-center gap-2">
+                        <img class="w-6" src="./images/person-outline.png" alt="">
+                        <h4 class="text-white">Login</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- This is Banner Section -->
+        <section>
+            <div class="hero h-[322px]" style="background-image: url(./images/banner.png);">
+                <div class="bg-white rounded px-12 py-5 flex justify-between items-center gap-5">
+                    <div class="border border-[#1B768D] rounded flex justify-between items-center px-9 py-3">
+                        <img class="w-6" src="./images/location.png" alt="">
+                        <h3 class="text-xl">Divition</h3>
+                        <img class="w-6" src="./images/arrow.png" alt="">
+                    </div>
+                    <div class="border border-[#1B768D] rounded flex justify-between items-center px-9 py-3">
+                        <img class="w-6" src="./images/location.png" alt="">
+                        <h3 class="text-xl">District</h3>
+                        <img class="w-6" src="./images/arrow.png" alt="">
+                    </div>
+                    <div class="border border-[#1B768D] rounded flex justify-between items-center px-9 py-3">
+                        <img class="w-6" src="./images/location.png" alt="">
+                        <h3 class="text-xl">Thana</h3>
+                        <img class="w-6" src="./images/arrow.png" alt="">
+                    </div>
+                    <div class="px-9 py-3 bg-[#1B768D] text-white text-center rounded">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <button class="text-xl ml-2">Search</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- this is category section -->
+        <section class="container mx-auto mt-10 mb-10">
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-medium">Categories</h1>
+                <h3 class="text-xl">See all</h3>
+            </div>
+            <div class="flex justify-between items-center mt-7">
+                <div class="flex items-center gap-2 bg-[#1B768D] text-white shadow-lg px-7 py-4 rounded-lg">
+                    <img class="w-10" src="./images/Bag Store 1.png" alt="">
+                    <h2 class="text-xl font-medium">Bag Store</h2>
+                </div>
+                <div class="flex items-center gap-2 border shadow-lg px-7 py-4 rounded-lg">
+                    <img class="w-10" src="./images/Shoe store 1.png" alt="">
+                    <h2 class="text-xl font-medium">Shoe Store</h2>
+                </div>
+                <div class="flex items-center gap-2 border shadow-lg px-7 py-4 rounded-lg">
+                    <img class="w-10" src="./images/mens-cloth.png" alt="">
+                    <h2 class="text-xl font-medium">Men’s Cloth</h2>
+                </div>
+                <div class="flex items-center gap-2 border shadow-lg px-7 py-4 rounded-lg">
+                    <img class="w-10" src="./images/womens dress 1.png" alt="">
+                    <h2 class="text-xl font-medium">Women Cloth</h2>
+                </div>
+                <div class="flex items-center gap-2 border shadow-lg px-7 py-4 rounded-lg">
+                    <img class="w-10" src="./images/Watches 1.png" alt="">
+                    <h2 class="text-xl font-medium">Watches</h2>
+                </div>
+            </div>
+        </section>
+        <!-- this is featured store section -->
+        <section class="container mx-auto">
+            <div class="flex justify-between items-center mb-7">
+                <h1 class="text-2xl font-medium">Featured Store</h1>
+                <h3 class="text-xl">See all</h3>
+            </div>
+            <!-- Store Row 1 -->
+            <div class="flex justify-between items-center w-full gap-6 mb-7">
+                <div class="flex justify-between bg-white shadow-lg p-6 w-6/12 rounded border">
+                    <div>
+                        <h1 class="text-2xl font-medium">Bag Packer's</h1>
+                        <div class="flex items-center mt-4 mb-4">
+                            <img class="w-5" src="./images/location.png" alt="">
+                            <h3>Salimullah Rd,Mohammadpur</h3>
+                        </div>
+                        <p class="bg-[#B3C8D0] py-1 text-center rounded w-[102px]">Bag Store</p>
+                        <button class="text-lg px-4 py-2 bg-[#1B768D] text-white rounded font-medium mt-4">View
+                            Details</button>
+                    </div>
+                    <div>
+                        <img class="h-[184px]" src="./images/Bag Packer's.png" alt="">
+                    </div>
+                </div>
+                <div class="flex justify-between bg-white shadow-lg p-6 w-6/12 rounded border">
+                    <div>
+                        <h1 class="text-2xl font-medium">SamborN</h1>
+                        <div class="flex items-center mt-4 mb-4">
+                            <img class="w-5" src="./images/location.png" alt="">
+                            <h3>Satmasjid Rd,Mohammadpur</h3>
+                        </div>
+                        <p class="bg-[#B3C8D0] py-1 text-center rounded w-[102px]">Bag Store</p>
+                        <button class="text-lg px-4 py-2 bg-[#1B768D] text-white rounded font-medium mt-4">View
+                            Details</button>
+                    </div>
+                    <div>
+                        <img class="h-[184px]" src="./images/SamborN.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Store Row 2 -->
+            <div class="flex justify-between items-center w-full gap-6 mb-7">
+                <div class="flex justify-between bg-white shadow-lg p-6 w-6/12 rounded border">
+                    <div>
+                        <h1 class="text-2xl font-medium">The Bag & Baggage</h1>
+                        <div class="flex items-center mt-4 mb-4">
+                            <img class="w-5" src="./images/location.png" alt="">
+                            <h3>Tajmahal Rd,Mohammadpur</h3>
+                        </div>
+                        <p class="bg-[#B3C8D0] py-1 text-center rounded w-[102px]">Bag Store</p>
+                        <button class="text-lg px-4 py-2 bg-[#1B768D] text-white rounded font-medium mt-4">View
+                            Details</button>
+                    </div>
+                    <div>
+                        <img class="h-[184px]" src="./images/3.png" alt="">
+                    </div>
+                </div>
+                <div class="flex justify-between bg-white shadow-lg p-6 w-6/12 rounded border">
+                    <div>
+                        <h1 class="text-2xl font-medium">Angel Collection</h1>
+                        <div class="flex items-center mt-4 mb-4">
+                            <img class="w-5" src="./images/location.png" alt="">
+                            <h3>Tokyo Square,Mohammadpur</h3>
+                        </div>
+                        <p class="bg-[#B3C8D0] py-1 text-center rounded w-[102px]">Bag Store</p>
+                        <button class="text-lg px-4 py-2 bg-[#1B768D] text-white rounded font-medium mt-4">View
+                            Details</button>
+                    </div>
+                    <div>
+                        <img class="h-[184px]" src="./images/4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Store Row 3 -->
+            <div class="flex justify-between items-center w-full gap-6 mb-7">
+                <div class="flex justify-between bg-white shadow-lg p-6 w-6/12 rounded border">
+                    <div>
+                        <h1 class="text-2xl font-medium">Bag Gallery</h1>
+                        <div class="flex items-center mt-4 mb-4">
+                            <img class="w-5" src="./images/location.png" alt="">
+                            <h3>Shakhertek Rd,Mohammadpur</h3>
+                        </div>
+                        <p class="bg-[#B3C8D0] py-1 text-center rounded w-[102px]">Bag Store</p>
+                        <button class="text-lg px-4 py-2 bg-[#1B768D] text-white rounded font-medium mt-4">View
+                            Details</button>
+                    </div>
+                    <div>
+                        <img class="h-[184px]" src="./images/5.png" alt="">
+                    </div>
+                </div>
+                <div class="flex justify-between bg-white shadow-lg p-6 w-6/12 rounded border">
+                    <div>
+                        <h1 class="text-2xl font-medium">CIPO FASHIONS</h1>
+                        <div class="flex items-center mt-4 mb-4">
+                            <img class="w-5" src="./images/location.png" alt="">
+                            <h3>Salimullah Rd,Mohammadpur</h3>
+                        </div>
+                        <p class="bg-[#B3C8D0] py-1 text-center rounded w-[102px]">Bag Store</p>
+                        <button class="text-lg px-4 py-2 bg-[#1B768D] text-white rounded font-medium mt-4">View
+                            Details</button>
+                    </div>
+                    <div>
+                        <img class="h-[184px]" src="./images/6.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Store Row 4 -->
+            <div class="flex justify-between items-center w-full gap-6 mb-7">
+                <div class="flex justify-between bg-white shadow-lg p-6 w-6/12 rounded border">
+                    <div>
+                        <h1 class="text-2xl font-medium">Yeso</h1>
+                        <div class="flex items-center mt-4 mb-4">
+                            <img class="w-5" src="./images/location.png" alt="">
+                            <h3>Shyamoli Rd,Mohammadpur</h3>
+                        </div>
+                        <p class="bg-[#B3C8D0] py-1 text-center rounded w-[102px]">Bag Store</p>
+                        <button class="text-lg px-4 py-2 bg-[#1B768D] text-white rounded font-medium mt-4">View
+                            Details</button>
+                    </div>
+                    <div>
+                        <img class="h-[184px]" src="./images/7.png" alt="">
+                    </div>
+                </div>
+                <div class="flex justify-between bg-white shadow-lg p-6 w-6/12 rounded border">
+                    <div>
+                        <h1 class="text-2xl font-medium">Archies Harrods</h1>
+                        <div class="flex items-center mt-4 mb-4">
+                            <img class="w-5" src="./images/location.png" alt="">
+                            <h3>Salimullah Rd,Mohammadpur</h3>
+                        </div>
+                        <p class="bg-[#B3C8D0] py-1 text-center rounded w-[102px]">Bag Store</p>
+                        <button class="text-lg px-4 py-2 bg-[#1B768D] text-white rounded font-medium mt-4">View
+                            Details</button>
+                    </div>
+                    <div>
+                        <img class="h-[184px]" src="./images/8.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- This is Buyer amd Seller Section -->
+        <section class="bg-[#1B768D] py-12 mb-10">
+            <h1 class="text-2xl font-medium text-center text-white mb-7">Connect Buyers & Sellers Globally</h1>
+            <div class="flex justify-center items-center gap-8 text-[#1B768D]">
+                <div class="bg-white rounded px-12 py-6 text-center">
+                    <i class="fa-solid fa-handshake text-5xl mb-2"></i>
+                    <h2 class="text-xl font-semibold">Trusted Platform</h2>
+                </div>
+                <div class="bg-white rounded px-12 py-6 text-center">
+                    <i class="fa-solid fa-shield-halved text-5xl mb-2"></i>
+                    <h2 class="text-xl font-semibold">Safe & Secure</h2>
+                </div>
+                <div class="bg-white rounded px-12 py-6 text-center">
+                    <i class="fa-solid fa-envelope text-5xl mb-2"></i>
+                    <h2 class="text-xl font-semibold">Quick Assistance</h2>
+                </div>
+            </div>
+        </section>
+        <!-- This Is feature area section -->
+        <section class="container mx-auto mb-10">
+            <h1 class="text-2xl font-medium text-center mb-7">Suppliers Featured Area</h1>
+            <!-- Place Row 1 -->
+            <div class="flex justify-between items-center gap-7 mb-7">
+                <div class="relative">
+                    <img class="rounded" src="./images/img1.png" alt="">
+                    <h2 class="absolute top-24 left-[146px] text-xl font-semibold text-white">Dhaka</h2>
+                </div>
+                <div class="relative">
+                    <img class="rounded" src="./images/img2.png" alt="">
+                    <h2 class="absolute top-24 left-[146px] text-xl font-semibold text-white">Khulna</h2>
+                </div>
+                <div class="relative">
+                    <img class="rounded" src="./images/img3.png" alt="">
+                    <h2 class="absolute top-24 left-[146px] text-xl font-semibold text-white">Barisal</h2>
+                </div>
+                <div class="relative">
+                    <img class="rounded" src="./images/img4.png" alt="">
+                    <h2 class="absolute top-24 left-[146px] text-xl font-semibold text-white">Chattogram</h2>
+                </div>
+            </div>
+            <!-- Place Row 2 -->
+            <div class="flex justify-between items-center gap-7">
+                <div class="relative">
+                    <img class="rounded" src="./images/img5.png" alt="">
+                    <h2 class="absolute top-24 left-[146px] text-xl font-semibold text-white">Rajshahi</h2>
+                </div>
+                <div class="relative">
+                    <img class="rounded" src="./images/img6.png" alt="">
+                    <h2 class="absolute top-24 left-[146px] text-xl font-semibold text-white">Rangpur</h2>
+                </div>
+                <div class="relative">
+                    <img class="rounded" src="./images/img7.png" alt="">
+                    <h2 class="absolute top-24 left-[146px] text-xl font-semibold text-white">Mymensingh</h2>
+                </div>
+                <div class="relative">
+                    <img class="rounded" src="./images/img8.png" alt="">
+                    <h2 class="absolute top-24 left-[146px] text-xl font-semibold text-white">Sylhet</h2>
+                </div>
+            </div>
+        </section>
+        <!-- Store Section -->
+        <section class="container mx-auto">
+            <div class="flex justify-between items-center mb-7">
+                <h1 class="text-2xl font-medium">All Store</h1>
+                <h3 class="text-xl">See all</h3>
+            </div>
+            <!-- Store Row 1 -->
+            <div class="flex justify-between items-center w-full gap-6 mb-7">
+                <div class="flex justify-between bg-white shadow-lg p-6 w-6/12 rounded border">
+                    <div>
+                        <h1 class="text-2xl font-medium">Skybags</h1>
+                        <div class="flex items-center mt-4 mb-4">
+                            <img class="w-5" src="./images/location.png" alt="">
+                            <h3>Salimullah Rd,Mohammadpur</h3>
+                        </div>
+                        <p class="bg-[#B3C8D0] py-1 text-center rounded w-[102px]">Bag Store</p>
+                        <button class="text-lg px-4 py-2 bg-[#1B768D] text-white rounded font-medium mt-4">View
+                            Details</button>
+                    </div>
+                    <div>
+                        <img class="h-[80px] mt-9" src="./images/9.png" alt="">
+                    </div>
+                </div>
+                <div class="flex justify-between bg-white shadow-lg p-6 w-6/12 rounded border">
+                    <div>
+                        <h1 class="text-2xl font-medium">Bay</h1>
+                        <div class="flex items-center mt-4 mb-4">
+                            <img class="w-5" src="./images/location.png" alt="">
+                            <h3>Satmasjid Rd,Mohammadpur</h3>
+                        </div>
+                        <p class="bg-[#B3C8D0] py-1 text-center rounded w-[102px]">Bag Store</p>
+                        <button class="text-lg px-4 py-2 bg-[#1B768D] text-white rounded font-medium mt-4">View
+                            Details</button>
+                    </div>
+                    <div>
+                        <img class="h-[184px]" src="./images/bay_logo_images_BcoDWwQ_9rhtkCi 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Store Row 2 -->
+            <div class="flex justify-between items-center w-full gap-6 mb-7">
+                <div class="flex justify-between bg-white shadow-lg p-6 w-6/12 rounded border">
+                    <div>
+                        <h1 class="text-2xl font-medium">Apex</h1>
+                        <div class="flex items-center mt-4 mb-4">
+                            <img class="w-5" src="./images/location.png" alt="">
+                            <h3>Salimullah Rd,Mohammadpur</h3>
+                        </div>
+                        <p class="bg-[#B3C8D0] py-1 text-center rounded w-[102px]">Bag Store</p>
+                        <button class="text-lg px-4 py-2 bg-[#1B768D] text-white rounded font-medium mt-4">View
+                            Details</button>
+                    </div>
+                    <div>
+                        <img class="h-[80px] mt-9" src="./images/apex_logo_website_170x80 1.png" alt="">
+                    </div>
+                </div>
+                <div class="flex justify-between bg-white shadow-lg p-6 w-6/12 rounded border">
+                    <div>
+                        <h1 class="text-2xl font-medium">Bagtag</h1>
+                        <div class="flex items-center mt-4 mb-4">
+                            <img class="w-5" src="./images/location.png" alt="">
+                            <h3>Satmasjid Rd,Mohammadpur</h3>
+                        </div>
+                        <p class="bg-[#B3C8D0] py-1 text-center rounded w-[102px]">Bag Store</p>
+                        <button class="text-lg px-4 py-2 bg-[#1B768D] text-white rounded font-medium mt-4">View
+                            Details</button>
+                    </div>
+                    <div>
+                        <img class="h-[80px] mt-9" src="./images/Logo_BAGTAG.com_ 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Store Row 3 -->
+            <div class="flex justify-between items-center w-full gap-6 mb-7">
+                <div class="flex justify-between bg-white shadow-lg p-6 w-6/12 rounded border">
+                    <div>
+                        <h1 class="text-2xl font-medium">Stylish Attire</h1>
+                        <div class="flex items-center mt-4 mb-4">
+                            <img class="w-5" src="./images/location.png" alt="">
+                            <h3>Salimullah Rd,Mohammadpur</h3>
+                        </div>
+                        <p class="bg-[#B3C8D0] py-1 text-center rounded w-[102px]">Bag Store</p>
+                        <button class="text-lg px-4 py-2 bg-[#1B768D] text-white rounded font-medium mt-4">View
+                            Details</button>
+                    </div>
+                    <div>
+                        <img class="h-[80px] mt-9" src="./images/STYLISH ATTIRE LOGO-1 1.png" alt="">
+                    </div>
+                </div>
+                <div class="flex justify-between bg-white shadow-lg p-6 w-6/12 rounded border">
+                    <div>
+                        <h1 class="text-2xl font-medium">Yellow</h1>
+                        <div class="flex items-center mt-4 mb-4">
+                            <img class="w-5" src="./images/location.png" alt="">
+                            <h3>Satmasjid Rd,Mohammadpur</h3>
+                        </div>
+                        <p class="bg-[#B3C8D0] py-1 text-center rounded w-[102px]">Bag Store</p>
+                        <button class="text-lg px-4 py-2 bg-[#1B768D] text-white rounded font-medium mt-4">View
+                            Details</button>
+                    </div>
+                    <div>
+                        <img class="h-[80px] mt-9" src="./images/yellow 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Store Row 4 -->
+            <div class="flex justify-between items-center w-full gap-6 mb-7">
+                <div class="flex justify-between bg-white shadow-lg p-6 w-6/12 rounded border">
+                    <div>
+                        <h1 class="text-2xl font-medium">Deja Trends</h1>
+                        <div class="flex items-center mt-4 mb-4">
+                            <img class="w-5" src="./images/location.png" alt="">
+                            <h3>Salimullah Rd,Mohammadpur</h3>
+                        </div>
+                        <p class="bg-[#B3C8D0] py-1 text-center rounded w-[102px]">Bag Store</p>
+                        <button class="text-lg px-4 py-2 bg-[#1B768D] text-white rounded font-medium mt-4">View
+                            Details</button>
+                    </div>
+                    <div>
+                        <img class="h-[80px] mt-9" src="./images/deja-trends-logo-removebg-preview 1.png" alt="">
+                    </div>
+                </div>
+                <div class="flex justify-between bg-white shadow-lg p-6 w-6/12 rounded border">
+                    <div>
+                        <h1 class="text-2xl font-medium">President</h1>
+                        <div class="flex items-center mt-4 mb-4">
+                            <img class="w-5" src="./images/location.png" alt="">
+                            <h3>Satmasjid Rd,Mohammadpur</h3>
+                        </div>
+                        <p class="bg-[#B3C8D0] py-1 text-center rounded w-[102px]">Bag Store</p>
+                        <button class="text-lg px-4 py-2 bg-[#1B768D] text-white rounded font-medium mt-4">View
+                            Details</button>
+                    </div>
+                    <div>
+                        <img class="h-[60px] mt-9" src="./images/president.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- This is Best Seller Section -->
+        <section class="container mx-auto mb-10">
+            <div class="flex justify-between items-center mb-7">
+                <h1 class="text-2xl font-medium">Best Sellers</h1>
+                <h3 class="text-xl">See all</h3>
+            </div>
+            <div class="flex justify-between items-center">
+                <div class="bg-white shadow-lg px-20 py-10 border rounded">
+                    <img class="h-[56px]" src="./images/apex-shoes 1.png" alt="">
+                </div>
+                <div class="bg-white shadow-lg px-20 py-10 border rounded">
+                    <img class="h-[56px]" src="./images/yellow 2.png" alt="">
+                </div>
+                <div class="bg-white shadow-lg px-20 py-10 border rounded">
+                    <img class="h-[56px]" src="./images/Lotto_Sport_Italia_logo.svg-removebg-preview 1.png" alt="">
+                </div>
+                <div class="bg-white shadow-lg px-20 py-10 border rounded">
+                    <img class="h-[56px]" src="./images/bay_logo_images_BcoDWwQ_9rhtkCi 2.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- This is Footer Section -->
+    <footer class="bg-[#B3C8D0]">
+        <section class="py-10">
+            <div class="mb-7">
+                <h1 class="text-2xl font-medium text-center">Newsletter</h1>
+                <div class="text-center mt-4">
+                    <div class="join">
+                        <input class="input join-item" placeholder="Enter Your Email" />
+                        <button class="btn bg-[#1B768D] join-item rounded text-white text-xl">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container mx-auto flex justify-between">
+                <div>
+                    <h1 class="text-xl font-medium mb-2">About</h1>
+                    <h4>About</h4>
+                    <h4>Contact</h4>
+                    <h4>Privacy Policy</h4>
+                    <h4>Terms & Condition</h4>
+                </div>
+                <div>
+                    <h1 class="text-xl font-medium mb-2">Contact</h1>
+                    <h4>House#42, Road-3/A, Dhanmondi,
+                        Dhaka-1209, Bangladesh</h4>
+                    <h4>Email: skybuybd@gmail.com</h4>
+                    <h4>Phone: 09613828606</h4>
+                </div>
+                <div>
+                    <h1 class="text-xl font-medium mb-2">Support</h1>
+                    <h4>Shipping Charge</h4>
+                    <h4>Secured Payment</h4>
+                    <h4>Retail Purchase</h4>
+                    <h4>FAQ</h4>
+                </div>
+                <div>
+                    <h1 class="text-xl font-medium mb-2">Follow Us</h1>
+                    <h4>Facebook</h4>
+                    <h4>Instagram</h4>
+                    <h4>Youtube</h4>
+                    <h4>LinkedIn</h4>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
